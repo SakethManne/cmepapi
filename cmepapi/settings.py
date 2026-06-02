@@ -45,6 +45,9 @@ INSTALLED_APPS = [
     'django_filters',
     'django_extensions',
     'corsheaders',
+    #  Local
+    'uaa',
+    'agencies',
 ]
 
 MIDDLEWARE = [
@@ -138,7 +141,7 @@ MEDIA_ROOT = BASE_DIR.joinpath('media')
 
 # Custom User Model
 
-# AUTH_USER_MODEL = 'uaa.User'
+AUTH_USER_MODEL = 'uaa.User'
 
 
 # DRF
