@@ -1,0 +1,17 @@
+[project]
+name = "cmepapi"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django>=6.0.5",
+    "django-debug-toolbar>=6.3.0",
+    "django-extensions>=4.1",
+    "django-filter>=25.2",
+    "djangorestframework>=3.17.1",
+    "gunicorn>=26.0.0",
+    "psycopg[binary]>=3.3.4",
+    "pyotp>=2.9.0",
+    "python-dotenv>=1.2.2",
+]
